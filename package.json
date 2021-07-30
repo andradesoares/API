@@ -2,9 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/andradesoares/API/issues"
   },
-  "homepage": "https://github.com/andradesoares/API#readme"
+  "homepage": "https://github.com/andradesoares/API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.0",
+    "joi": "^17.4.1",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
